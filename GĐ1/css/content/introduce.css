@@ -1,0 +1,28 @@
+ /* Nội dung hình ảnh chân dung các thành viên the band   */
+#main>.content-container.introduce>.content .content-img{
+    display: flex;
+    justify-content: center;
+    padding: 32px 0;
+}
+
+#main>.content-container.introduce>.content .text{
+    letter-spacing: -0.25px;
+    line-height: 1.5;
+    margin: 15px 0;
+    text-align: justify;
+}
+#main>.content-container.introduce>.content .content-img .item{
+    width: 33.33333%;
+    text-align: center;
+}
+
+#main>.content-container.introduce>.content .content-img .item-header{
+    margin: 15px 0;
+}
+
+#main>.content-container.introduce>.content .content-img .item-img{
+    margin-bottom: 16px !important;
+    width: 60%;
+    margin: auto;
+    border-radius: 4px;
+}

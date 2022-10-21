@@ -1,0 +1,26 @@
+/* SLIDER  */
+#main>.slider{
+    background: url(../assests/chicago.jpg) top center / cover no-repeat;
+    position: relative;
+    margin-top: 46.4px;
+    padding-top: 50%;
+}
+
+#main>.slider .slider-content{
+    position:absolute;
+    padding: 32px 16px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: white;
+}
+
+#main>.slider .title{
+    margin: 10px 0;
+    font-size: 24px;
+}
+#main>.slider .content{
+    margin: 15px 0;
+}
+

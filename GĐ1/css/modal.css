@@ -1,0 +1,103 @@
+#ticketMode{
+    display: none;
+}
+.modal{
+    background-color: black;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    height: 100%;
+    width: 100%;    
+    top: 0;
+    right: 0;
+    left: 0;
+    right: 0;
+    z-index: 2 ;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 100px;
+}
+
+.modal>.modal-box{
+    width: 900px;
+    height: fit-content;
+    background-color: white;
+    position: relative;
+}
+
+.modal>.modal-box>.header{
+    padding: 32px 16px;
+    background-color: #009688;
+}
+
+.modal>.modal-box>.header>h2{
+    text-align: center;
+    margin: 10px 0;
+    letter-spacing: 4px;
+    color: white ;
+}
+
+.modal>.modal-box>.header>h2>p,
+.modal>.modal-box>.header>h2 i{
+    font-size: 30px;
+    margin-right: 16px;
+}
+.modal>.modal-box>.content{
+    padding: 0.15px 16px;
+}
+.modal>.modal-box>.content .item>label{
+    display: block;
+    margin: 15px 0;
+}
+.modal>.modal-box>.content input{
+    width: 100%;
+    margin-bottom: 0;
+}
+.modal>.modal-box>.content form>button{
+    background-color: #009688;
+    border: none;
+    width: 100%;
+    padding: 16px;
+    margin: 16px 0;
+}
+.modal>.modal-box>.content form>button:hover{
+    background-color: #ccc;
+}
+
+.modal>.modal-box>.footer>button{
+    padding: 8px 16px;
+    background-color: #f44336;
+    margin-left: 16px;
+    margin-top: 16px;
+}
+
+.modal>.modal-box>.footer>button i{
+    position: relative;
+    transform: translateY(7%);
+    text-align: center;
+}
+.modal>.modal-box>.footer>p{
+    margin-right: 16px;
+    margin-top: 16px;
+    float: right;
+}
+
+.modal>.modal-box>.footer>p>a{
+    text-decoration: underline;
+}
+
+.modal>.modal-box>.header>.close-modal{
+    padding: 8px 16px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 24px;
+    color: white;
+    display: flex;
+    height: 52px;
+    align-items: center;
+}
+.modal>.modal-box>.header>.close-modal:hover{
+    background-color: #ccc;
+    color: black;
+}

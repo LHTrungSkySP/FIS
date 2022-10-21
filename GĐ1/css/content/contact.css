@@ -1,0 +1,24 @@
+
+#main>.content-container.contact>.content>.contact-form{
+    padding: 32px 0;
+    display: flex;
+}
+#main>.content-container.contact>.content>.contact-form>.label>p{
+    font-size: 18px;
+}
+#main>.content-container.contact>.content>.contact-form>.label>p>i{
+    width: 30px;
+    font-size: 18px;
+}
+
+#main>.content-container.contact>.content>.contact-form>.form{
+    display: flex;
+    margin: 0 -8px;
+}
+#main>.content-container.contact>.content>.contact-form>.form button{
+    width: fit-content;
+    align-self: self-end;
+    margin-right: 8px;
+}
+
+
