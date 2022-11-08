@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/responsive.css">
     <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
     <title>lần 1</title>
 </head>
@@ -14,29 +15,29 @@
 <body>
     <div id="main">
         <!-- HEADER  -->
-        <div class="header">
-            <div class="navbar">
+        <div class="header" id="header">
+            <div class="navbar" id="navbar">
                 <div class="container-navbar">
-                    <a class="item-navbar">HOME</a>
+                    <a href="#home" class="item-navbar">HOME</a>
                 </div>
                 <div class="container-navbar">
-                    <a class="item-navbar">BAND</a>
+                    <a href="#band" class="item-navbar">BAND</a>
                 </div>
                 <div class="container-navbar">
-                    <a class="item-navbar">TOUR</a>
+                    <a href="#tour" class="item-navbar">TOUR</a>
                 </div>
                 <div class="container-navbar">
-                    <a class="item-navbar">CONTACT</a>
+                    <a href="#contact" class="item-navbar">CONTACT</a>
                 </div>
                 <div class="container-navbar">
-                    <div class="item-navbar">
+                    <a href="##" class="item-navbar">
                         MORE
                         <i class="fa fa-caret-down"></i>
-                    </div>
+                    </a>
                     <div class="sub-navbar">
-                        <div class="item--sub-navbar">Merchandise</div>
-                        <div class="item--sub-navbar">Extras</div>
-                        <div class="item--sub-navbar">Media</div>
+                        <a href="#" class="item--sub-navbar">Merchandise</a>
+                        <a href="#" class="item--sub-navbar">Extras</a>
+                        <a href="#" class="item--sub-navbar">Media</a>
                     </div>
                 </div>
             </div>
@@ -45,10 +46,15 @@
                     <i class="fa fa-search"></i>
                 </div>
             </a>
+            <a class="btn-bar" id="mobileMenu">
+                <div class="icon-search">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </a>
         </div>
 
         <!-- SLIDER  -->
-        <div class="slider">
+        <div id="home" class="slider">
             <div class="slider-content">
                 <h3 class="title">Chicago</h3>
                 <p class="content"><b>Thank you, Chicago - A night we won't forget.</b></p>
@@ -56,7 +62,7 @@
         </div>
 
         <!-- CONTENT THE BAND -->
-        <div class="content-container introduce">
+        <div id="band" class="content-container introduce">
             <div class="content">
 
                 <!-- Nội dung chữ miêu tả the band -->
@@ -75,19 +81,19 @@
 
                 <!-- Nội dung hình ảnh chân dung các thành viên the band  -->
                 <div class="content-img">
-                    <div class="item">
+                    <div class="item flex-3-col text-align">
                         <!-- tên thành viên  -->
                         <div class="item-header">Name</div>
                         <!-- hình ảnh thành viên trong nhóm  -->
                         <img class="item-img" src="./assests/bandmember.jpg" alt="">
                     </div>
-                    <div class="item">
+                    <div class="item flex-3-col text-align">
                         <!-- tên thành viên  -->
                         <div class="item-header">Name</div>
                         <!-- hình ảnh thành viên trong nhóm  -->
                         <img class="item-img" src="./assests/bandmember.jpg" alt="">
                     </div>
-                    <div class="item">
+                    <div class="item flex-3-col text-align">
                         <!-- tên thành viên  -->
                         <div class="item-header">Name</div>
                         <!-- hình ảnh thành viên trong nhóm  -->
@@ -98,7 +104,7 @@
         </div>
 
         <!-- CONTENT TOUR DATE  -->
-        <div class="content-container tour-date gb--black">
+        <div id="tour" class="content-container tour-date gb--black">
             <div class="content">
 
                 <!-- Nội dung chữ miêu tả the band -->
@@ -122,7 +128,7 @@
 
                 <!-- trưng bày vé  -->
                 <div class="ticket-show">
-                    <div class="item">
+                    <div class="item flex-3-col">
                         <!-- ảnh đại điểm  -->
                         <img src="./assests/newyork.jpg" alt="">
                         <!-- giới thiệu thời gian địa điểm   -->
@@ -131,10 +137,10 @@
                             <div class="sub">Fri 27 Nov 2016</div>
                             <div class="text">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</div>
                             <!-- mua vé  -->
-                            <button onclick="showModal()" class="btn-buy_ticket">Buy Tickets</button>
+                            <button class="btn-buy_ticket js-buy-ticket">Buy Tickets</button>
                         </div>
                     </div>
-                    <div class="item">
+                    <div class="item flex-3-col">
                         <!-- ảnh đại điểm  -->
                         <img src="./assests/paris.jpg" alt="">
                         <!-- giới thiệu thời gian địa điểm   -->
@@ -143,10 +149,10 @@
                             <p class="sub">Sat 28 Nov 2016</p>
                             <p class="text">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
                             <!-- mua vé  -->
-                            <button onclick="showModal()" class="btn-buy_ticket">Buy Tickets</button>
+                            <button class="btn-buy_ticket js-buy-ticket">Buy Tickets</button>
                         </div>
                     </div>
-                    <div class="item">
+                    <div class="item flex-3-col">
                         <!-- ảnh đại điểm  -->
                         <img src="./assests/sanfran.jpg" alt="">
                         <!-- giới thiệu thời gian địa điểm   -->
@@ -155,7 +161,7 @@
                             <div class="sub">Sun 29 Nov 2016</div>
                             <div class="text">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</div>
                             <!-- mua vé  -->
-                            <button onclick="showModal()" class="btn-buy_ticket">Buy Tickets</button>
+                            <button class="btn-buy_ticket js-buy-ticket">Buy Tickets</button>
                         </div>
                     </div>
                 </div>
@@ -163,7 +169,7 @@
         </div>
 
         <!-- CONTENT CONTACT  -->
-        <div class="content-container contact">
+        <div id="contact" class="content-container contact">
             <div class="content">
 
                 <!-- Nội dung chữ miêu tả the band -->
@@ -232,14 +238,14 @@
     </div>
 
     <div id="ticketModal" hidden>
-        <div class="modal">
-            <div class="modal-box">
+        <div class="modal js-close-buy-ticket">
+            <div class="modal-box js-modal-box">
                 <!-- header  -->
                 <div class="header">
                     <h2>
                         <p><i class="fa fa-suitcase"></i>Tickets</p>
                     </h2>
-                    <div onclick="closeModal()" class="close-modal">
+                    <div class="close-modal js-close-buy-ticket">
                         <i class="fas fa-times"></i>
                     </div>
                 </div>
@@ -263,7 +269,7 @@
                     </form>
                 </div>
                 <div class="footer">
-                    <button onclick="closeModal()"><p>Close <i class="fas fa-times"></i></p></button>
+                    <button class="js-close-buy-ticket"><p>Close <i class="fas fa-times"></i></p></button>
                     <p>Need <a href="">help?</a></p>
                 </div>
             </div>
@@ -272,7 +278,10 @@
     </div>
     <script src="./js/jquery-3.6.0.min.js"></script>
     <script src="./js/main.js"></script>
+    <script>
+    // let menuItems = document.querySelectorAll("#main>.header>.navbar .container-navbar")
 
+    </script>
 </body>
 
 </html>

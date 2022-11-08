@@ -11,6 +11,7 @@
 #main>.header>.navbar{
     color: white;
     display: flex;
+    height: 46.5px;
 }
 #main>.header>.navbar .item-navbar{
     padding: 12px 24px;
@@ -18,6 +19,7 @@
     display: block;
     text-decoration: none;
     color: white;
+    width: fit-content;
 }
 #main>.header>.navbar>.container-navbar:hover>.item-navbar{
     background-color: #ccc;
@@ -29,12 +31,13 @@
     display: none;
     position: absolute;
     box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+    background-color: white;
 }
 #main>.header .sub-navbar>.item--sub-navbar{
     padding: 8px 16px;
     color: black;
-    background-color: white;
     min-width: 160px;
+    display: block;
 }
 
 #main>.header .sub-navbar>.item--sub-navbar:hover{
@@ -43,14 +46,14 @@
 #main>.header .navbar .container-navbar:hover .sub-navbar{
     display: block;
 }
-
+#main>.header .btn-bar,
 #main>.header .btn-search{
     float: right;
     position: absolute;
     top: 0;
     right: 0;
     color: white;
-    height: 100%;
+    height: 46.5px;
     padding: 0 24px;
     display: flex;
     cursor: pointer;
@@ -59,7 +62,11 @@
 #main>.header .btn-search:hover{
     background-color: #f44336;
 }
-
+#main>.header .btn-bar:hover{
+    background-color: #ccc;
+    color: black;
+}
+#main>.header .btn-bar>.icon-search,
 #main>.header .btn-search>.icon-search{
     margin: auto;
 }

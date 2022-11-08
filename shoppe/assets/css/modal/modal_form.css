@@ -1,0 +1,121 @@
+
+.auth-form{
+    width: 500px;
+}
+
+.auth-form__container{
+    padding: 0 32px;
+}
+.auth-form__header{
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 12px 0;
+    margin-top: 10px;
+}
+.auth-form__heading{
+    font-size: 2.2rem;
+    font-weight: 400;
+    color: var(--text-color);
+}
+.auth-form__switch-btn{
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+.auth-form__form{
+    margin-top: 16px;
+}
+.auth-form__input{
+    width: 100%;
+    height: 40px;
+    margin-top: 16px;
+    padding: 0 12px;
+    font-size: 1.4rem;
+    border-radius: 2px;
+    border: 1px solid var(--border-color);
+    outline: none;
+}
+/* chữ thêm vào ở form về diều khoản */
+.auth-form__addside{
+    margin-top: 18px;
+}
+.auth-form__policy-text{
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    text-align: center;
+    padding: 0 12px;
+}
+.auth-form__link-text{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+/* nút  */
+.auth-form__controls{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 80px;
+    margin-bottom: 26px;
+}
+
+.auth-form__controls-back{
+    margin-right: 8px;
+}
+.auth-form__socials{
+    background-color: #f5f5f5;
+    padding: 12px 32px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.auth-form__socials-icon{
+    font-size: 1.8rem;
+}
+
+/* connect with facebook  */
+.auth-form__socials--facebook{
+    background-color: #3A5A98;
+    color: var(--white-color);
+    width: -webkit-fill-available;
+}
+.auth-form__socials--google{
+    width: -webkit-fill-available;
+    background-color: var(--white-color);
+    color: #666;
+}
+
+.auth-form__socials--facebook
+.auth-form__socials-icon{
+    color: var(--white-color);
+}
+.auth-form__socials-title{
+    margin: 0 auto;
+    font-size: 12px;
+
+}
+.auth-form__socials-icon{
+    margin-left: 10px;
+}
+
+/* forget pass and help  */
+.auth-form__help{
+    display: flex;
+    justify-content: flex-end;
+}
+.auth-form__help-link{
+    font-size: 1.4rem;
+    color: #939393;
+}
+
+    /* ngăn cách hai thằng trên  */
+.auth-form__help-separate{
+    display: block;
+    height: 16px;
+    margin: 0px 16px 0;
+    border-left: 1px solid #eaeaea;
+}
+.auth-form__help-forgot{
+    color: var(--primary-color);
+}

@@ -1,5 +1,4 @@
 #ticketMode{
-    display: none;
 }
 .modal{
     background-color: black;
@@ -23,6 +22,7 @@
     height: fit-content;
     background-color: white;
     position: relative;
+    animation: modalFadeIn ease 0.3s;
 }
 
 .modal>.modal-box>.header{
@@ -100,4 +100,15 @@
 .modal>.modal-box>.header>.close-modal:hover{
     background-color: #ccc;
     color: black;
+}
+
+@keyframes modalFadeIn{
+    from{
+        opacity: 0;
+        transform: translateY(-80px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
