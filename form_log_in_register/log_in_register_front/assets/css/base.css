@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+div{
+    user-select: none;
+}
+html{
+    /* most browsers are 10px  */
+    font-family: Helvetica, sans-serif;
+    background-color: var(--white-color);
+}
+.font--12{
+    font-size: 12px;
+}
+.font--13{
+    font-size: 13px;
+}
+.font--14{
+    font-size: 14px;
+}
+
+.font--16{
+    font-size: 16px;
+}
+
+.font--20{
+    font-size: 20px;
+}
+.flex-columns{
+    display: flex;
+}
+.flex-rows{
+    display: flex;
+    flex-direction: column;
+}
+.flex-100{
+    flex: 1;
+
+    width: 100%;
+}
+.flex-50{
+    flex: 1;
+    width: 50%;
+}
+button,input{
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border: 1px solid #ddd;
+}

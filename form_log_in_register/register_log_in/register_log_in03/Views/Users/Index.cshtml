@@ -1,0 +1,19 @@
+﻿@model IEnumerable<register_log_in03.Models.User>
+
+@{
+    ViewBag.Title = "Index";
+}
+@{ 
+    if (@ViewBag.UserNameError != "")
+    {
+        <h2>@ViewBag.UserNameError</h2>
+    }
+    else if (@ViewBag.UserPassError != ""){
+        <h2>@ViewBag.UserPassError</h2>
+    }
+else
+            {
+<h2>Đã đăng nhập thành công</h2>
+
+            }
+}

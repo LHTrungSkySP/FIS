@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main font--13">
+        <div class="container flex-rows">
+            <div class="header">
+                <div class="header__title">
+                    Đă𝖓𝖌 𝖓𝖍ậ𝖕 𝖙𝖍ế 𝖌𝖎ớ𝖎 𝖒è𝖔
+                </div>
+            </div>
+            <div class="form flex-columns">
+                <!-- Chưa có tài khoản  -->
+                <div class="form__left flex-50">
+                    <h1 class="form__title">𝓗ã𝔂 𝓷ó𝓲 𝓬𝓱𝓸 𝓶è𝓸 𝓫𝓲ế𝓽 𝓫ạ𝓷 𝓵à 𝓪𝓲</h1>
+                    <div class="form__avatar--meo"></div>
+                    <h4 class="title-no-account">
+                        Nếu bạn chưa có tài khoản, hãy click vào đây -> 
+                        <button class="title-no-account__img"></button>
+                    </h4>
+                </div>
+                <!-- Đăng nhập bằng tài khaorn  -->
+                <div class="form__right flex-50">
+                    <h1 class="form__title">
+                        𝕮𝖚𝖓𝖌 𝖈ấ𝖕 𝖙𝖍ô𝖓𝖌 𝖙𝖎𝖓 đă𝖓𝖌 𝖓𝖍ậ𝖕 𝖈ủ𝖆 𝖇ạ𝖓
+                    </h1>
+                    <form class="infor">
+                        <!-- ảnh con mèo  -->
+                        <div class="infor__img-container">
+                            <div class="infor__img" id="img_meomeo"></div>
+                        </div>
+                        <!-- căn lại khoảng cách  -->
+                        <!-- tên đăng nhập  -->
+                        <div class="infor__item">
+                            <div class="infor__label">
+                                𝕋ê𝕟 đă𝕟𝕘 𝕟𝕙ậ𝕡 (𝕊ố đ𝕚ệ𝕟 𝕥𝕙𝕠ạ𝕚)
+                            </div>
+                            <input type="text" class="infor__input" name="userName">
+                        </div>
+                        <!-- mật khẩu  -->
+                        <div class="infor__item">
+                            <div class="infor__label">
+                                𝕄ậ𝕥 𝕜𝕙ẩ𝕦
+                            </div>
+                            <input type="password" class="infor__input" name="userPass">
+                        </div>        
+                        <div class="infor__item">
+                            <div class="infor__option">
+                                <h4 class="infor__remeber flex-50">
+                                    <input type="checkbox" name="userRemember">
+                                    <span>
+                                        𝙽𝚑ớ 𝚝𝚑ô𝚗𝚐 𝚝𝚒𝚗 đă𝚗𝚐 𝚗𝚑ậ𝚙 
+                                    </span>
+                                </h4>
+                                <h4 class="infor__forget flex-50">
+                                    <a href="">
+                                        𝚀𝚞ê𝚗 𝚖ậ𝚝 𝚔𝚑ẩ𝚞
+                                    </a>
+                                </h4>             
+                            </div>
+                        </div>    
+                        <button class="btn-submit">
+                            Đăng nhập
+                        </button>  
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/js/jquery-3.6.0.min.js"></script>
+    <script type="module" src="./assets/js/main.js"></script>
+    <!-- <script>
+        var ele_img_meomeo = document.getElementById(ele_name).style.backgroundPositionX
+    </script> -->
+</body>
+</html>
