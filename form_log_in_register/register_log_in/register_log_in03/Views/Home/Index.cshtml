@@ -1,79 +1,30 @@
-﻿@{
-    ViewBag.Title = "Home Page";
-   
-}
+﻿@{ 
+    Layout = "~/Views/Shared/_Layout.cshtml";
 
+}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="stylesheet" href="~/Content/SubContent/base.css">
     <link rel="stylesheet" href="~/Content/SubContent/log_in.css">
+    <link rel="stylesheet" href="~/Content/SubContent/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
     <title>Document</title>
 </head>
 <body>
-    <div class="main font--13">
-        <div class="container flex-rows">
-            <div class="header">
-                <div class="header__title">
-                    Đă𝖓𝖌 𝖓𝖍ậ𝖕 𝖙𝖍ế 𝖌𝖎ớ𝖎 𝖒è𝖔
+    <div class="main">
+        <div class="modal">
+            <div class="modal-content">
+                <!-- ảnh con mèo chuyển động  -->
+                <div class="infor__img-container ">
+                    <div class="infor__img img_meomeo w_100"></div>
                 </div>
-            </div>
-            <div class="form flex-columns">
-                <!-- Chưa có tài khoản  -->
-                <div class="form__left flex-50">
-                    <h1 class="form__title">𝓗ã𝔂 𝓷ó𝓲 𝓬𝓱𝓸 𝓶è𝓸 𝓫𝓲ế𝓽 𝓫ạ𝓷 𝓵à 𝓪𝓲</h1>
-                    <div class="form__avatar--meo"></div>
-                    <h4 class="title-no-account">
-                        Nếu bạn chưa có tài khoản, hãy click vào đây ->
-                        <button class="title-no-account__img"></button>
-                    </h4>
-                </div>
-                <!-- Đăng nhập bằng tài khaorn  -->
-                <div class="form__right flex-50">
-                    <h1 class="form__title">
-                        @ViewBag.Title
-                    </h1>
-                    <form class="infor" action="/Admin/Users/Index" method="post">
-                        <!-- ảnh con mèo  -->
-                        <div class="infor__img-container">
-                            <div class="infor__img" id="img_meomeo"></div>
-                        </div>
-                        <!-- căn lại khoảng cách  -->
-                        <!-- tên đăng nhập  -->
-                        <div class="infor__item">
-                            <div class="infor__label">
-                                𝕋ê𝕟 đă𝕟𝕘 𝕟𝕙ậ𝕡 (𝕊ố đ𝕚ệ𝕟 𝕥𝕙𝕠ạ𝕚)
-                            </div>
-                            <input type="text" class="infor__input" name="UserName">
-                        </div>
-                        <!-- mật khẩu  -->
-                        <div class="infor__item">
-                            <div class="infor__label">
-                                𝕄ậ𝕥 𝕜𝕙ẩ𝕦
-                            </div>
-                            <input type="password" class="infor__input" name="UserPassword">
-                        </div>
-                        <div class="infor__item">
-                            <div class="infor__option">
-                                <h4 class="infor__remeber flex-50">
-                                    <input type="checkbox" name="userRemember">
-                                    <span>
-                                        𝙽𝚑ớ 𝚝𝚑ô𝚗𝚐 𝚝𝚒𝚗 đă𝚗𝚐 𝚗𝚑ậ𝚙
-                                    </span>
-                                </h4>
-                                <h4 class="infor__forget flex-50">
-                                    <a href="">
-                                        𝚀𝚞ê𝚗 𝚖ậ𝚝 𝚔𝚑ẩ𝚞
-                                    </a>
-                                </h4>
-                            </div>
-                        </div>
-                        <input type="submit" class="btn-submit" value="Đăng nhập">
-                    </form>
+                <h1 class="color_pink">Welcome @TempData["UserName"]</h1>
+                <div class="infor__img-container">
+                    <div class="infor__img img_meomeo w_100"></div>
                 </div>
             </div>
         </div>
@@ -82,6 +33,6 @@
     <script type="module" src="~/Scripts/subJs/main.js"></script>
     <!-- <script>
         var ele_img_meomeo = document.getElementById(ele_name).style.backgroundPositionX
-    </script> -->
+    </script> -->a
 </body>
 </html>

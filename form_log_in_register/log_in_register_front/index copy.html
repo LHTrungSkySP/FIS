@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="main font--13">
+        <div class="container flex-rows">
+            <div class="header">
+                <div class="header__title">
+                    Đăɴɢ ᴋý ᴛʜàɴʜ ᴠɪêɴ ᴛʜế ɢɪớɪ ᴍèᴏ
+                </div>
+            </div>
+            <div class="form flex-columns">
+                
+                <!-- Đăng nhập bằng tài khaorn  -->
+                <div class="form__right flex-50">
+                    <form class="infor">
+                        <!-- ảnh con mèo  -->
+                        <div class="infor__img-container">
+                            <div class="infor__img" id="img_meomeo"></div>
+                        </div>
+                        <!-- căn lại khoảng cách  -->
+                        <!-- tên đăng nhập  -->
+                        <div class="infor__item">
+                            <div class="infor__label">
+                                𝕋ê𝕟 đă𝕟𝕘 𝕟𝕙ậ𝕡 (𝕊ố đ𝕚ệ𝕟 𝕥𝕙𝕠ạ𝕚)
+                            </div>
+                            <input type="text" class="infor__input" name="userName">
+                        </div>
+                        <!-- mật khẩu  -->
+                        <div class="infor__item">
+                            <div class="infor__label">
+                                𝕄ậ𝕥 𝕜𝕙ẩ𝕦
+                            </div>
+                            <div class="input__container">
+                                <input type="password" class="infor__input" id="inputPass" name="userPass">
+                                <div class="passEye" id="inputHideBtn">
+                                    <i class="fas fa-eye"></i>
+                                </div>
+                            </div>
+                        </div>   
+                        <div class="infor__item">
+                            <div class="infor__label">
+                                𝕏á𝕔 𝕟𝕙ậ𝕟 𝕞ậ𝕥 𝕜𝕙ẩ𝕦
+                            </div>
+                            <div class="input__container">
+                                <input type="password" class="infor__input" id="inputPass" name="userPass">
+                                <div class="passEye" id="inputHideBtn">
+                                    <i class="fas fa-eye"></i>
+                                </div>
+                            </div>
+                        </div>       
+                        <div class="infor__item">
+                            <div class="infor__option">
+                                <h4 class="infor__remeber flex-50">
+                                    <input type="checkbox" name="userRemember">
+                                    <span style="color: #f597ca;">
+                                        𝕭ạ𝖓 đồ𝖓𝖌 ý 𝖛ớ𝖎 𝖈á𝖈 đ𝖎ề𝖚 𝖐𝖍𝖔ả𝖓 𝖈ủ𝖆 𝖈𝖍ú𝖓𝖌 𝖙ô𝖎
+                                    </span>
+                                </h4>          
+                            </div>
+                        </div>    
+                        <button class="btn-submit">
+                            Đăng ký
+                        </button>  
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/js/jquery-3.6.0.min.js"></script>
+    <script type="module" src="./assets/js/main.js"></script>
+    <!-- <script>
+        var ele_img_meomeo = document.getElementById(ele_name).style.backgroundPositionX
+    </script> -->
+</body>
+</html>

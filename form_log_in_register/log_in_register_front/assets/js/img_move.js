@@ -7,8 +7,11 @@ const SPEED_IMG = def.SPEED_4
 // function: kéo ảnh từ bên trái sang bên phải
 // input: tên ele cần kéo
 export function drag_img_left_to_right(ele_name){
-    var ele_img_meomeo = document.getElementById(ele_name);
-    setTimeout(changeImg(ele_img_meomeo,IMG_POS_X_MIN), 100);
+    var ele_img_meomeos = document.getElementsByClassName(ele_name);
+    for(let i=0;i<ele_img_meomeos.length;i++){
+        setTimeout(changeImg(ele_img_meomeos[i],IMG_POS_X_MIN), 100);
+
+    }
 }
 function changeImg(ele_img_meomeo,img_pos_x){
     return function(){

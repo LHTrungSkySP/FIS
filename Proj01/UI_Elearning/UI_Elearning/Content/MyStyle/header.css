@@ -1,5 +1,4 @@
 ﻿.header{
-    min-height: 72px;
     display: flex;
     align-items:center;
 }
@@ -14,10 +13,12 @@
 }
 .header__title--top{
     font-size: 15px;
+    margin-top: 10px;
 }
-.header__title--bottom{
-    font-size:19px;
+.header__title--bottom {
+    font-size: 19px;
     font-weight: 700;
+    margin-bottom: 10px;
 }
 .input-container{
     height: 34px;
@@ -60,42 +61,50 @@
 .slider {
     z-index: -1;
 }
-.slider-img{
+.slider-img {
     background: url('../../Assests/img/Frame 3805.svg') center / cover;
-    padding-top: 278px;
+    padding-top: 15%;
+    min-height: 200px;
 }
 
 .footer {
     align-items: center;
     justify-content: center;
     line-height: 40px;
+    position: relative;
+    top: -68px;
+    margin-top: 31px;
 }
 .footer-content {
     color: #6F7294;
     font-weight: 400;
     font-size: 15px;
 }
-/*content*/ 
+/*content*/
 .content-container {
     width: 100%;
-    height: calc(100% + 109px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .content {
-    width: 1440px;
-    height: 1152px;
     left: 50%;
     top: -68px;
     transform: translateX(-50%);
-    margin-bottom: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 48px;
-    gap: 48px;
-    width: 1440px;
-    height: 1152px;
+    max-width: 1440px;
     background: #FFFFFF;
     border: 1px solid rgba(169, 184, 195, 0.3);
     border-radius: 16px;
+}
+
+.zalo-container {
+    position: fixed;
+    width: 64px;
+    bottom: 146px;
+    right: 48px;
 }

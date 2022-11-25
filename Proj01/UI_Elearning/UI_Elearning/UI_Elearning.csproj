@@ -127,18 +127,36 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assests\img\Angle-double-small-down.svg" />
+    <Content Include="Assests\img\arrow_right.svg" />
+    <Content Include="Assests\img\arrow_right_current.svg" />
     <Content Include="Assests\img\Avatar.svg" />
     <Content Include="Assests\img\canhoanthanh.svg" />
     <Content Include="Assests\img\cauhoi.svg" />
     <Content Include="Assests\img\dahoanthanh.svg" />
+    <Content Include="Assests\img\diemAplus.svg" />
+    <Content Include="Assests\img\double_left.svg" />
+    <Content Include="Assests\img\double_right.svg" />
+    <Content Include="Assests\img\form3-select_6.svg" />
+    <Content Include="Assests\img\form3_select_1.svg" />
+    <Content Include="Assests\img\form3_select_2.svg" />
+    <Content Include="Assests\img\form3_select_3.svg" />
+    <Content Include="Assests\img\form3_select_4.svg" />
+    <Content Include="Assests\img\form3_select_5.svg" />
+    <Content Include="Assests\img\lich.svg" />
+    <Content Include="Assests\img\lich_arrow.svg" />
+    <Content Include="Assests\img\no_dahoanthanh.svg" />
     <Content Include="Assests\img\diemdat.svg" />
     <Content Include="Assests\img\Frame 3805.svg" />
     <Content Include="Assests\img\Logo.svg" />
+    <Content Include="Assests\img\no_canhoanthanh.svg" />
     <Content Include="Assests\img\Search.svg" />
     <Content Include="Assests\img\soluotthi.svg" />
+    <Content Include="Assests\img\style_list_icon_check.svg" />
     <Content Include="Assests\img\Vector %281%29.svg" />
     <Content Include="Assests\img\Vector 6.svg" />
     <Content Include="Assests\img\Vector.svg" />
+    <Content Include="Assests\img\xeploai.svg" />
     <Content Include="Assests\img\Zalo icon.svg" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
@@ -160,6 +178,8 @@
     <Content Include="Content\MyStyle\header.css" />
     <Content Include="Content\MyStyle\main.css" />
     <Content Include="Content\Style1\form1.css" />
+    <Content Include="Content\Style1\form2.css" />
+    <Content Include="Content\Style1\form3.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
@@ -214,6 +234,8 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\IndexDone.cshtml" />
+    <Content Include="Views\Home\IndexInforCourse.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

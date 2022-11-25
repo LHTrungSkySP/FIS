@@ -1,16 +1,32 @@
-﻿.icon-CanHoanThanh {
+﻿.form1 .row {
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-0.5 * var(--bs-gutter-x));
+    margin-left: calc(-0.5 * var(--bs-gutter-x));
+}
+
+.icon-CanHoanThanh {
     background: url(../../Assests/img/canhoanthanh.svg) no-repeat center / cover;
     width: 58px;
     height: 58px;
 }
 
+.icon-No_DaHoanThanh {
+    background: url(../../Assests/img/no_dahoanthanh.svg) no-repeat center / cover;
+    width: 30px;
+    height: 58px;
+}
+.icon-No_CanHoanThanh {
+    background: url(../../Assests/img/no_canhoanthanh.svg) no-repeat center / cover;
+    width: 58px;
+    height: 58px;
+}
 .icon-DaHoanThanh {
     background: url(../../Assests/img/dahoanthanh.svg) no-repeat center / cover;
     width: 30px;
     height: 58px;
 }
-
 .status-list {
+    padding-bottom: 48px;
 }
 
 .status__btn {
@@ -20,7 +36,7 @@
     padding-bottom: 8px;
 }
 
-.status__title::after {
+.starus-selected::after {
     position: absolute;
     content: "";
     border-bottom: 3px solid #FA7232;
@@ -50,14 +66,23 @@
     .content-box .row {
         padding-bottom: 48px;
     }
-
-    .content-box .col {
+@media screen and (min-width: 992px) {
+    .form1 .content-box .col-lg {
         margin-right: 36px;
     }
+}
+@media screen and (max-width: 991px) {
 
-        .content-box .col:last-child {
+    .form1 .list_course .container:not(:last-child) {
+        margin-bottom: 48px;
+    }
+}
+
+
+        .content-box .col-lg:last-child {
             margin-right: 0;
         }
+/*COURSE*/ 
 .course_box {
     padding: 32px;
     background: #FFFFFF;
@@ -92,20 +117,38 @@
     text-align: justify;
     color: #6F7294;
 }
-.course__btn {
-    width: 360px;
-    height: 36px;
+.course__btn--active {
+
     background: #2983CD;
+
+}
+.row.course__btn  {
+    height: 36px;
     border-radius: 20px;
     display: flex;
     justify-content: center;
     cursor: pointer;
+    border: 1px solid #D6DDE2;
+    padding: 0;
+    
 }
-.course__btn span {
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 20px;
-    color: #FFFFFF;
-    text-align:center;
-    transform: translateY(50%);
+.course__btn.course__btn--active span {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        color: #FFFFFF;
+    }
+    .course__btn span {
+        font-weight: 400;
+        font-size: 15px;
+        height: fit-content;
+        color: #6F7294;
+        text-align: center;
+        transform: translateY(-50%);
+        position: relative;
+        top: 50%;
+    }
+.list_course.container > .row:nth-last-child(-n + 1) {
+    padding-bottom: 0;
 }
+
