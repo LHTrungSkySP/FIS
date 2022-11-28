@@ -8,7 +8,12 @@
 .navbar{
     padding: 0;
 }
-.header__title{
+@media screen and (max-width: 900px) {
+    .nav-container {
+        justify-content: center!important;
+    }
+}
+.header__title {
     margin-left: 32px;
 }
 .header__title--top{

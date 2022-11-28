@@ -1,7 +1,7 @@
 ﻿
 @{
     ViewBag.Title = "IndexDone";
-    Layout = "~/Views/Shared/_Layout.cshtml";
+    Layout = "~/Views/Shared/_LayoutHome.cshtml";
 }
 
 <div class="w-100 h-100 form2">
@@ -9,12 +9,12 @@
         @*trạng thái lọc của bài thi*@
         <div class="row status-list">
             <div class="col d-flex justify-content-center">
-                <div class="status__btn">
+                <a href="https://localhost:44384/Home/IndexNeedComplete" class="status__btn no-a cursor-pointer">
                     <div class="icon-No_CanHoanThanh icon"></div>
-                    <div class="status__title ">cần hoàn thành</div>
+                    <div class="status__title">cần hoàn thành</div>
 
-                </div>
-                <div class="status__btn">
+                </a>
+                <div class="status__btn no-a cursor-pointer">
                     <div class="icon-DaHoanThanh icon"></div>
                     <div class="status__title starus-selected">Đã hoàn thành</div>
 

@@ -77,3 +77,7 @@ C:\Users\Le Trung\Desktop\FIS\Proj01\UI_Elearning\UI_Elearning\obj\Debug\UI_Elea
 C:\Users\Le Trung\Desktop\FIS\Proj01\UI_Elearning\UI_Elearning\obj\Debug\UI_Elearning.csproj.CopyComplete
 C:\Users\Le Trung\Desktop\FIS\Proj01\UI_Elearning\UI_Elearning\obj\Debug\UI_Elearning.dll
 C:\Users\Le Trung\Desktop\FIS\Proj01\UI_Elearning\UI_Elearning\obj\Debug\UI_Elearning.pdb
+C:\Users\Le Trung\Desktop\FIS\Proj01\UI_Elearning\UI_Elearning\bin\EntityFramework.dll
+C:\Users\Le Trung\Desktop\FIS\Proj01\UI_Elearning\UI_Elearning\bin\EntityFramework.SqlServer.dll
+C:\Users\Le Trung\Desktop\FIS\Proj01\UI_Elearning\UI_Elearning\bin\EntityFramework.xml
+C:\Users\Le Trung\Desktop\FIS\Proj01\UI_Elearning\UI_Elearning\bin\EntityFramework.SqlServer.xml

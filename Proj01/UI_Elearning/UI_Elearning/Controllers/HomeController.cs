@@ -8,12 +8,15 @@ namespace UI_Elearning.Controllers
         {
             return View();
         }
-
+        public ActionResult IndexNeedComplete()
+        {
+            return View();
+        }
         public ActionResult IndexDone()
         {
             return View();
         }
-        public ActionResult IndexInforCourse()
+        public ActionResult IndexDetailCourse()
         {
             return View();
         }

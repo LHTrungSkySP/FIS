@@ -1,0 +1,47 @@
+﻿@import url(base.css);
+@import url(form.css);
+@import url(form_login.css);
+@import url(form_login_comfirm.css);
+@import url(form3.css);
+@import url(form-PasswordRecovery.css);
+@import url(form_Register.css);
+
+.main-login {
+    background: linear-gradient(269.4deg, #FEB500 0%, #F27228 99.48%);
+    mix-blend-mode: normal;
+}
+.main-login__icon-layout {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 127px;
+    padding-left: 50%;
+    width: 0;
+    background: url(../../Assests/img/login/layout_login1.png) no-repeat center top / contain;
+}
+.main-login__icon-manvector {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin-top: 262px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50%;
+    width: 0;
+    background: url('../../Assests/img/login/Man Vector.png') no-repeat bottom / contain;
+}
+.icon-layout {
+    height: 100%;
+    width: 100%;
+}
+.form{
+    position:absolute;
+    z-index:1;
+}
