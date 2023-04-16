@@ -6,8 +6,8 @@
     <title>@ViewBag.Title - My ASP.NET Application</title>
     @Scripts.Render("~/bundles/modernizr")
     @Styles.Render("~/Content/css")
-    <link rel="stylesheet" href="~/Content/Login/base.css">
-    <link rel="stylesheet" href="~/Content/Login/main.css">
+    <link rel="stylesheet" href="~/Content/MainStyle/base.css">
+    <link rel="stylesheet" href="~/Content/MainStyle/main.css">
 
 </head>
 <body>
@@ -18,28 +18,8 @@
         </div>
         @RenderBody()
     </div>
-    <script>
-        function showModalSex() {
-            if (document.getElementById("listGender").classList.contains("d-none")) {
-                document.getElementById("listGender").classList.remove("d-none");
-                document.getElementById("listGender").classList.add("d-flex");
+    @*<script src="~/Scripts/js/main.js">
 
-            }
-            else {
-                document.getElementById("listGender").classList.remove("d-flex");
-                document.getElementById("listGender").classList.add("d-none");
-            }
-        }
-        function setManGender() {
-            document.getElementById("listGender").classList.remove("d-flex");
-            document.getElementById("listGender").classList.add("d-none");
-            document.getElementById("Gender").value ="Nam";
-        }
-        function setWomanGender() {
-            document.getElementById("listGender").classList.remove("d-flex");
-            document.getElementById("listGender").classList.add("d-none");
-            document.getElementById("Gender").value = "Nữ";
-        }
-    </script>
+    </script>*@
 </body>
 </html>

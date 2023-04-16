@@ -18,19 +18,19 @@
                 <div class="item form-left">
                     <div class="item input-container margin-auto">
                         <img src="~/Assests/img/register/tentk.svg" />
-                        <input class="form-login__input lable" name="AccountName" type="text" placeholder="Tên tài khoản" />
+                        <input class="form-login__input lable" name="AccountName" type="text" placeholder="Tên tài khoản" required />
                     </div>
                     <div class="item input-container margin-auto">
                         <img src="~/Assests/img/register/email.svg" />
-                        <input class="form-login__input lable" name="Email" type="text" placeholder="Email" />
+                        <input class="form-login__input lable" name="Email" type="text" placeholder="Email" required/>
                     </div>
                     <div class="item input-container margin-auto">
                         <img src="~/Assests/img/register/matkhau.svg" />
-                        <input class="form-login__input lable" name="AccountPassword" type="password" placeholder="Mật khẩu" />
+                        <input class="form-login__input lable" name="AccountPassword" type="password" placeholder="Mật khẩu" required/>
                     </div>
                     <div class="item input-container margin-auto">
                         <img src="~/Assests/img/register/matkhau.svg" />
-                        <input class="form-login__input lable" name="AccountPasswordComfirm" type="password" placeholder="Nhập lại mật khẩu" />
+                        <input class="form-login__input lable" name="AccountPasswordComfirm" type="password" placeholder="Nhập lại mật khẩu" required/>
                     </div>
 
                 </div>
@@ -39,12 +39,12 @@
                     <div class="item input-container margin-auto">
                         <img src="~/Assests/img/register/thongtin.svg" />
 
-                        <input class="form-login__input lable" name="UserLastName" type="text" placeholder="Họ và tên đệm" />
+                        <input class="form-login__input lable" name="UserLastName" type="text" placeholder="Họ và tên đệm"required />
                     </div>
                     <div class="item input-container margin-auto">
                         <img src="~/Assests/img/register/thongtin.svg" />
 
-                        <input class="form-login__input lable" name="UserFirstName" type="text" placeholder="Tên" />
+                        <input class="form-login__input lable" name="UserFirstName" type="text" placeholder="Tên" required/>
                     </div>
 
                     <div class="item position-relative">
@@ -62,19 +62,14 @@
                     </div>
                     <div class="item input-container margin-auto">
                         <img src="~/Assests/img/register/diachi.svg" />
-                        <input class="form-login__input lable" name="Address" type="password" placeholder="Địa chỉ" />
+                        <input class="form-login__input lable" name="Address" type="password" placeholder="Địa chỉ" required/>
                     </div>
                 </div>
             </div>
             <div class="d-flex justify-content-center flex-wrap">
-                <button class="cl-white item no-border btn-login bg-blue">
-                    <span class="cl-white">
-                        @Html.ActionLink("TRỞ LẠI", "Index")
-                    </span>
-                </button>
-                <button type="submit" class="cl-white item no-border btn-login bg-green">
-                    <span class="cl-white">ĐĂNG KÝ</span>
-                </button>
+                @Html.ActionLink("TRỞ LẠI", "Index", null, new { @class = "cl-white item no-border btn-login bg-blue" })
+                <button class="cl-white item no-border btn-login bg-green">Đăng ký</button>
+
             </div>
             @{
                 bool? kt = ViewBag.ComfirmPassword;

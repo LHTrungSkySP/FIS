@@ -17,7 +17,7 @@ function intitEvent(){
     initEventInput();
 }
 function initEventStart(){
-    img.drag_img_left_to_right("img_meomeo");
+    img.drag_img_left_to_right("infor__img");
 }
 function initEventInput(){
     ipt.togglePasswordTextBox('#inputPass','#inputHideBtn');
