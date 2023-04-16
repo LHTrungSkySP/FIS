@@ -8,8 +8,10 @@ const SPEED_IMG = def.SPEED_4
 // input: tên ele cần kéo
 export function drag_img_left_to_right(ele_name){
     var ele_img_meomeos = document.getElementsByClassName(ele_name);
+    console.log(ele_name);
     for(let i=0;i<ele_img_meomeos.length;i++){
         setTimeout(changeImg(ele_img_meomeos[i],IMG_POS_X_MIN), 100);
+
 
     }
 }

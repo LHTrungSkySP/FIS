@@ -21,4 +21,5 @@ function initEventStart(){
 }
 function initEventInput(){
     ipt.togglePasswordTextBox('#inputPass','#inputHideBtn');
+    console.log("b");
 }
