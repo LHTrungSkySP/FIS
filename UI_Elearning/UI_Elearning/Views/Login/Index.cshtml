@@ -1,0 +1,63 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutLogin.cshtml";
+}
+<form action="/Home/IndexNeedComplete" method="post">
+    <div class="form form-login">
+        <div class="form-login__left">
+            <div class="title-welcome">
+                Chào mừng tới
+            </div>
+            <div class="title-name title-margin">
+                FPT.eExam
+            </div>
+            <div class="title-infor title-margin">
+                Hệ thống thi sát hạch trực tuyến của FPT
+            </div>
+            <div class="title-language title-margin">
+                Tiếng Việt
+                <img src="~/Assests/img/login/login_arr_down.png" />
+            </div>
+            <div class="title-intro">
+                Phần mềm hoạt động hiệu quả nhất trên trình duyệt <b> Chrome, FireFox</b>
+            </div>
+        </div>
+        <div class="form-login__right">
+            <div class="item form-login__logo">
+                <img src="~/Assests/img/Logo.svg" />
+            </div>
+            <div class="item form-login__header ">
+                <span class="margin-auto">Đăng nhập</span>
+            </div>
+            <div class="item lable">Tài khoản</div>
+            <div class="item input-container">
+                <input class="form-login__input" name="Name" placeholder="Nhập email của bạn ..." />
+            </div>
+            <div class="item lable">Mật khẩu</div>
+            <div class="item input-container">
+                <input class="form-login__input" type="password" name="pass" placeholder="Nhập mật khẩu của bạn ..." />
+            </div>
+            <div class="item accurate">
+                <div class="accurate__left">
+                    1+8=?
+                </div>
+                <div class="accurate__right">
+                    <img src="~/Assests/img/login/Refresh.png" />
+                </div>
+            </div>
+            <div class="item remember">
+                <input type="radio" />
+                <span class="lable">Ghi nhớ mật khẩu</span>
+            </div>
+            <div class="item">
+                <button class="cl-white item no-border btn-login btn-login">Đăng nhập</button>
+            </div>
+            <div class="item help">
+                @Html.ActionLink("Đăng ký tài khoản", "Register", null, new { @class = "lable" })
+                @Html.ActionLink("Quên mật khẩu?", "PasswordRecovery", null, new { @class = "lable" })
+            </div>
+        </div>
+    </div>
+</form>
+

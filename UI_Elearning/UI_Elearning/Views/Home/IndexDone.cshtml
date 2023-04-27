@@ -1,0 +1,488 @@
+﻿
+@{
+    ViewBag.Title = "IndexDone";
+    Layout = "~/Views/Shared/_LayoutHome.cshtml";
+}
+
+<div class="w-100 h-100 form2">
+    <div class="container no-padding">
+        @*trạng thái lọc của bài thi*@
+        <div class="row status-list">
+            <div class="col d-flex justify-content-center">
+                <a href="https://localhost:44384/Home/IndexNeedComplete" class="status__btn no-a cursor-pointer">
+                    <div class="icon-No_CanHoanThanh icon"></div>
+                    <div class="status__title">cần hoàn thành</div>
+
+                </a>
+                <div class="status__btn no-a cursor-pointer">
+                    <div class="icon-DaHoanThanh icon"></div>
+                    <div class="status__title starus-selected">Đã hoàn thành</div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="row no-padding">
+            <div class="container">
+
+                @*ele1*@
+                <div class="row courseResult-box">
+                    @*phần thời gian và kết quả*@
+                    <div class="courseResult__header d-flex">
+                        <div class="courseResult__header--left">
+                            <div class="row course__title">
+                                Cuộc thi tìm hiểu văn hóa làm việc của công ty năm 2022
+                            </div>
+                            <div class="row course__timeline">
+                                08:00, 10/09/2022 - 08:00, 20/09/2022
+                            </div>
+                        </div>
+                        <div class="courseResult__header--right d-flex">
+                            <div class="courseResult-item">
+                                <div class="courseResult-item__left">
+                                    <div class="courseResult-item__title">
+                                        Kết quả tổng kết:
+                                    </div>
+                                    <div class="courseResult-item__content">
+                                        18/20
+                                    </div>
+                                </div>
+                                <div class="courseResult-item__right">
+                                    <div class="icon-diemAplus"></div>
+                                </div>
+                            </div>
+                            <div class="courseResult-item">
+                                <div class="courseResult-item__left ">
+                                    <div class="courseResult-item__title">
+                                        Xếp loại
+                                    </div>
+                                    <div class="courseResult-item__content">
+                                        Hoàn thành
+                                    </div>
+                                </div>
+                                <div class="courseResult-item__right">
+                                    <div class="icon-xeploai"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sperate-bottom"></div>
+                    <div class="sperate-bottom sperate-space"></div>
+                    <div class="courseResult__content">
+                        <div class="courseResult__content--left table-responsive">
+
+                            <table style="width:100%">
+                                <thead>
+                                    <tr>
+                                        <td>Lần thi</td>
+                                        <td>Thời gian bắt đầu thi</td>
+                                        <td>Thời gian kết thúc thi</td>
+                                        <td>Điểm thi</td>
+                                        <td>Xếp loại</td>
+                                        <td>Hành động</td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>16/08/2022 11:07:28 SA</td>
+                                        <td>16/08/2022 11:14:01 SA</td>
+                                        <td>18/20</td>
+                                        <td>Hoàn thành</td>
+                                        <td>Xem chi tiết</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                        </div>
+                        <div class="courseResult__content--right">
+                            <div class="courseResult__content--btn">
+                                <div class="btn btn--all no-border">Tất cả &nbsp;<img src="~/Assests/img/Angle-double-small-down.svg" /></div>
+                            </div>
+                            <div class="courseResult__content--btn">
+                                <div class="btn btn--again no-border">Thi lại</div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                @*ele1*@
+            <div class="row courseResult-box">
+                @*phần thời gian và kết quả*@
+                <div class="courseResult__header d-flex">
+                    <div class="courseResult__header--left">
+                        <div class="row course__title">
+                            Cuộc thi tìm hiểu văn hóa làm việc của công ty năm 2022
+                        </div>
+                        <div class="row course__timeline">
+                            08:00, 10/09/2022 - 08:00, 20/09/2022
+                        </div>
+                    </div>
+                    <div class="courseResult__header--right d-flex">
+                        <div class="courseResult-item">
+                            <div class="courseResult-item__left">
+                                <div class="courseResult-item__title">
+                                    Kết quả tổng kết:
+                                </div>
+                                <div class="courseResult-item__content">
+                                    18/20
+                                </div>
+                            </div>
+                            <div class="courseResult-item__right">
+                                <div class="icon-diemAplus"></div>
+                            </div>
+                        </div>
+                        <div class="courseResult-item">
+                            <div class="courseResult-item__left ">
+                                <div class="courseResult-item__title">
+                                    Xếp loại
+                                </div>
+                                <div class="courseResult-item__content">
+                                    Hoàn thành
+                                </div>
+                            </div>
+                            <div class="courseResult-item__right">
+                                <div class="icon-xeploai"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sperate-bottom"></div>
+                <div class="sperate-bottom sperate-space"></div>
+                <div class="courseResult__content">
+                    <div class="courseResult__content--left table-responsive">
+                        <table style="width:100%">
+                            <thead>
+                                <tr>
+                                    <td>Lần thi</td>
+                                    <td>Thời gian bắt đầu thi</td>
+                                    <td>Thời gian kết thúc thi</td>
+                                    <td>Điểm thi</td>
+                                    <td>Xếp loại</td>
+                                    <td>Hành động</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>16/08/2022 11:07:28 SA</td>
+                                    <td>16/08/2022 11:14:01 SA</td>
+                                    <td>18/20</td>
+                                    <td>Hoàn thành</td>
+                                    <td>Xem chi tiết</td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>16/08/2022 11:07:28 SA</td>
+                                    <td>16/08/2022 11:14:01 SA</td>
+                                    <td>18/20</td>
+                                    <td>Hoàn thành</td>
+                                    <td>Xem chi tiết</td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>16/08/2022 11:07:28 SA</td>
+                                    <td>16/08/2022 11:14:01 SA</td>
+                                    <td>18/20</td>
+                                    <td>Hoàn thành</td>
+                                    <td>Xem chi tiết</td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>16/08/2022 11:07:28 SA</td>
+                                    <td>16/08/2022 11:14:01 SA</td>
+                                    <td>18/20</td>
+                                    <td>Hoàn thành</td>
+                                    <td>Xem chi tiết</td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>16/08/2022 11:07:28 SA</td>
+                                    <td>16/08/2022 11:14:01 SA</td>
+                                    <td>18/20</td>
+                                    <td>Hoàn thành</td>
+                                    <td>Xem chi tiết</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </div>
+                    <div class="courseResult__content--right">
+                        <div class="courseResult__content--btn">
+                            <div class="btn btn--all no-border">Tất cả &nbsp;<img src="~/Assests/img/Angle-double-small-down.svg" /></div>
+                        </div>
+                        <div class="courseResult__content--btn">
+                            <div class="btn btn--again no-border">Thi lại</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+                @*ele1*@
+            <div class="row courseResult-box">
+                @*phần thời gian và kết quả*@
+                <div class="courseResult__header d-flex">
+                    <div class="courseResult__header--left">
+                        <div class="row course__title">
+                            Cuộc thi tìm hiểu văn hóa làm việc của công ty năm 2022
+                        </div>
+                        <div class="row course__timeline">
+                            08:00, 10/09/2022 - 08:00, 20/09/2022
+                        </div>
+                    </div>
+                    <div class="courseResult__header--right d-flex">
+                        <div class="courseResult-item">
+                            <div class="courseResult-item__left">
+                                <div class="courseResult-item__title">
+                                    Kết quả tổng kết:
+                                </div>
+                                <div class="courseResult-item__content">
+                                    18/20
+                                </div>
+                            </div>
+                            <div class="courseResult-item__right">
+                                <div class="icon-diemAplus"></div>
+                            </div>
+                        </div>
+                        <div class="courseResult-item">
+                            <div class="courseResult-item__left ">
+                                <div class="courseResult-item__title">
+                                    Xếp loại
+                                </div>
+                                <div class="courseResult-item__content">
+                                    Hoàn thành
+                                </div>
+                            </div>
+                            <div class="courseResult-item__right">
+                                <div class="icon-xeploai"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sperate-bottom"></div>
+                <div class="sperate-bottom sperate-space"></div>
+                <div class="courseResult__content">
+                    <div class="courseResult__content--left table-responsive">
+                        <table style="width:100%">
+                            <thead>
+                                <tr>
+                                    <td>Lần thi</td>
+                                    <td>Thời gian bắt đầu thi</td>
+                                    <td>Thời gian kết thúc thi</td>
+                                    <td>Điểm thi</td>
+                                    <td>Xếp loại</td>
+                                    <td>Hành động</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>16/08/2022 11:07:28 SA</td>
+                                    <td>16/08/2022 11:14:01 SA</td>
+                                    <td>18/20</td>
+                                    <td>Hoàn thành</td>
+                                    <td>Xem chi tiết</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </div>
+                    <div class="courseResult__content--right">
+                        <div class="courseResult__content--btn">
+                            <div class="btn btn--all no-border">Tất cả &nbsp;<img src="~/Assests/img/Angle-double-small-down.svg" /></div>
+                        </div>
+                        <div class="courseResult__content--btn">
+                            <div class="btn btn--again no-border">Thi lại</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+                @*ele1*@
+            <div class="row courseResult-box">
+                @*phần thời gian và kết quả*@
+                <div class="courseResult__header d-flex">
+                    <div class="courseResult__header--left">
+                        <div class="row course__title">
+                            Cuộc thi tìm hiểu văn hóa làm việc của công ty năm 2022
+                        </div>
+                        <div class="row course__timeline">
+                            08:00, 10/09/2022 - 08:00, 20/09/2022
+                        </div>
+                    </div>
+                    <div class="courseResult__header--right d-flex">
+                        <div class="courseResult-item">
+                            <div class="courseResult-item__left">
+                                <div class="courseResult-item__title">
+                                    Kết quả tổng kết:
+                                </div>
+                                <div class="courseResult-item__content">
+                                    18/20
+                                </div>
+                            </div>
+                            <div class="courseResult-item__right">
+                                <div class="icon-diemAplus"></div>
+                            </div>
+                        </div>
+                        <div class="courseResult-item">
+                            <div class="courseResult-item__left ">
+                                <div class="courseResult-item__title">
+                                    Xếp loại
+                                </div>
+                                <div class="courseResult-item__content">
+                                    Hoàn thành
+                                </div>
+                            </div>
+                            <div class="courseResult-item__right">
+                                <div class="icon-xeploai"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sperate-bottom"></div>
+                <div class="sperate-bottom sperate-space"></div>
+                <div class="courseResult__content">
+                    <div class="courseResult__content--left table-responsive">
+                        <table style="width:100%">
+                            <thead>
+                                <tr>
+                                    <td>Lần thi</td>
+                                    <td>Thời gian bắt đầu thi</td>
+                                    <td>Thời gian kết thúc thi</td>
+                                    <td>Điểm thi</td>
+                                    <td>Xếp loại</td>
+                                    <td>Hành động</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>16/08/2022 11:07:28 SA</td>
+                                    <td>16/08/2022 11:14:01 SA</td>
+                                    <td>18/20</td>
+                                    <td>Hoàn thành</td>
+                                    <td>Xem chi tiết</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </div>
+                    <div class="courseResult__content--right">
+                        <div class="courseResult__content--btn">
+                            <div class="btn btn--all no-border">Tất cả &nbsp;<img src="~/Assests/img/Angle-double-small-down.svg" /></div>
+                        </div>
+                        <div class="courseResult__content--btn">
+                            <div class="btn btn--again no-border">Thi lại</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+                @*ele1*@
+            <div class="row courseResult-box">
+                @*phần thời gian và kết quả*@
+                <div class="courseResult__header d-flex">
+                    <div class="courseResult__header--left">
+                        <div class="row course__title">
+                            Cuộc thi tìm hiểu văn hóa làm việc của công ty năm 2022
+                        </div>
+                        <div class="row course__timeline">
+                            08:00, 10/09/2022 - 08:00, 20/09/2022
+                        </div>
+                    </div>
+                    <div class="courseResult__header--right d-flex">
+                        <div class="courseResult-item">
+                            <div class="courseResult-item__left">
+                                <div class="courseResult-item__title">
+                                    Kết quả tổng kết:
+                                </div>
+                                <div class="courseResult-item__content">
+                                    18/20
+                                </div>
+                            </div>
+                            <div class="courseResult-item__right">
+                                <div class="icon-diemAplus"></div>
+                            </div>
+                        </div>
+                        <div class="courseResult-item">
+                            <div class="courseResult-item__left ">
+                                <div class="courseResult-item__title">
+                                    Xếp loại
+                                </div>
+                                <div class="courseResult-item__content">
+                                    Hoàn thành
+                                </div>
+                            </div>
+                            <div class="courseResult-item__right">
+                                <div class="icon-xeploai"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sperate-bottom"></div>
+                <div class="sperate-bottom sperate-space"></div>
+                <div class="courseResult__content">
+                    <div class="courseResult__content--left table-responsive">
+                        <table style="width:100%">
+                            <thead>
+                                <tr>
+                                    <td>Lần thi</td>
+                                    <td>Thời gian bắt đầu thi</td>
+                                    <td>Thời gian kết thúc thi</td>
+                                    <td>Điểm thi</td>
+                                    <td>Xếp loại</td>
+                                    <td>Hành động</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>16/08/2022 11:07:28 SA</td>
+                                    <td>16/08/2022 11:14:01 SA</td>
+                                    <td>18/20</td>
+                                    <td>Hoàn thành</td>
+                                    <td>Xem chi tiết</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </div>
+                    <div class="courseResult__content--right">
+                        <div class="courseResult__content--btn">
+                            <div class="btn btn--all no-border">Tất cả &nbsp;<img src="~/Assests/img/Angle-double-small-down.svg" /></div>
+                        </div>
+                        <div class="courseResult__content--btn">
+                            <div class="btn btn--again no-border">Thi lại</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+                @*ele1*@
+                <div class="row courseResult-paging ">
+                    <ul class="pagination justify-content-center h-100 no-margin">
+                        <li class="page-item">
+                            <a class="page-link no-padding" href="#">
+                                <div class="icon-doubleLeft"></div>
+                            </a>
+                        </li>
+                        <li class="page-item"><a class="page-link pagingActive" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">4</a></li>
+                        <li class="page-item"><a class="page-link" href="#">5</a></li>
+                        <li class="page-item">
+                            <a class="page-link no-padding" href="#">
+                                <div class="icon-doubleRight"></div>
+                             </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
