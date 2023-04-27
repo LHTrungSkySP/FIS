@@ -1,0 +1,40 @@
+﻿.form.form-Register .form-login__right {
+    width: 900px;
+
+}
+.form-Register .avatar{
+    height: 128px;
+}
+.form-Register .btn-login{
+    width: 200px;
+    margin: 0 8px;
+}
+.form-Register .form-Register__form{
+    flex-wrap: wrap;
+}
+.form-Register .input-container input {
+    margin-left: 13px;
+
+}
+    .form-Register .sperate-col {
+        margin: 0 16px;
+        width: 2px;
+        height: 228px;
+        background: #335C7F;
+    }
+@media screen and (max-width: 734px){
+    .form.form-Register .form-login__right{
+        width:auto;
+    }
+    .form-Register .sperate-col {
+        display: none;
+    }
+}
+#listGender > button:hover{
+    background-color: #ddd;
+    border-radius: 12px;
+}
+.form-Register a{
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,181 @@
+﻿.form3 {
+}
+    .form3 ul {
+        padding: 0;
+        list-style-type: none;
+        margin-block-start: 0;
+        margin-block-end: 0;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 0;
+    }
+    .form3 ul li {
+        display: inline-block;
+        width: fit-content;
+        margin-right: 8px;
+    }
+
+.content .form3 {
+    height: 100px;
+    width: calc(100% + 18px);
+}
+
+/*ICON */
+.icon-lich {
+    background: url(../../Assests/img/lich.svg) no-repeat center / cover;
+    height: 15px;
+    width: 15px;
+    transform: translateY(15%);
+}
+.icon-licharrow {
+    background: url(../../Assests/img/lich_arrow.svg) no-repeat center / cover;
+    width: 4.62px;
+    height: 8.14px;
+    transform: translateY(72%);
+}
+
+
+
+
+
+
+.container {
+    max-width: 100%;
+}
+
+
+.form3 .header {
+}
+
+.form3__header > .row {
+    margin-bottom: 12px;
+}
+
+.form3 .title-links {
+    background: rgba(237, 237, 237, 0.4);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-height: 34px;
+    background: rgba(237, 237, 237, 0.4);
+    border-radius: 4px;
+}
+
+.form3 .title-link {
+    display: inline-block;
+    width: fit-content;
+    padding: 0;
+}
+
+    .form3 .title-link:not(:first-child,:last-child)::before {
+        content: "";
+        background: url(../../Assests/img/arrow_right.svg) no-repeat center / cover;
+        background-size: 7px;
+        width: 22px;
+        height: 11px;
+        display: inline-block;
+    }
+
+    .form3 .title-link:last-child::before {
+        content: "";
+        background: url(../../Assests/img/arrow_right_current.svg) no-repeat center / cover;
+        background-size: 7px;
+        width: 22px;
+        height: 11px;
+        display: inline-block;
+    }
+
+    .form3 .title-link .title-link--curent {
+    }
+.form3__header--title {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #374957;
+}
+.form3__header--timeline{
+
+}
+    .form3__header--timeline span {
+        width: fit-content;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        display: flex;
+        align-items: center;
+        text-transform: uppercase;
+        color: #7287A2;
+    }
+
+.form3__selection .item{
+    float: left;
+    max-width:fit-content;
+    margin-right: 16px;
+}
+
+.form3__seletion--left {
+    flex-wrap: wrap;
+}
+.form3__content {
+    margin-top: 20px;
+}
+    .form3__content > .title {
+        display: flex;
+    }
+        .form3__content > .title .title-left {
+            width: 110px;
+            height: 27px;
+            display: flex;
+            align-items: center;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 27px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #004E83;
+        }
+        .form3__content > .title .title-right {
+            flex: 1;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            padding-left: 20px;
+        }
+    .form3__content .title-sub .title {
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 23px;
+        text-align: left;
+        color: #374957;
+        margin-bottom: 12.5px;
+        margin-top: 12px;
+    }
+    .form3__content .title-sub .title-sub--list {
+        list-style: square inside url("../../Assests/img/style_list_icon_check.svg");
+    }
+        .form3__content .title-sub .title-sub--list li {
+            display: list-item;
+            width: 100%;
+            margin-left: 24px;
+            margin-bottom: 13px;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 19px;
+
+
+            color: #374957;
+        }
+    .form3__content .title-sub .title-sub--text {
+        margin-left: 24px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 28px;
+        /* or 200% */
+
+        text-align: justify;
+        color: #374957;
+    }
