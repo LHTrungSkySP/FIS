@@ -1,0 +1,38 @@
+﻿@{ 
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/Content/SubContent/base.css">
+    <link rel="stylesheet" href="~/Content/SubContent/log_in.css">
+    <link rel="stylesheet" href="~/Content/SubContent/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <div class="modal">
+            <div class="modal-content">
+                <!-- ảnh con mèo chuyển động  -->
+                <div class="infor__img-container ">
+                    <div class="infor__img img_meomeo w_100"></div>
+                </div>
+                <h1 class="color_pink">Welcome @TempData["UserName"]</h1>
+                <div class="infor__img-container">
+                    <div class="infor__img img_meomeo w_100"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="~/Scripts/subJs/jquery-3.6.0.js"></script>
+    <script type="module" src="~/Scripts/subJs/main.js"></script>
+    <!-- <script>
+        var ele_img_meomeo = document.getElementById(ele_name).style.backgroundPositionX
+    </script> -->a
+</body>
+</html>
